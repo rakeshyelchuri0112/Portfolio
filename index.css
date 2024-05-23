@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    max-width: 100%;
+}
+
+
+
+/* Navbar */
+.navbar-bg {
+    background-color: #000;
+    color: white;
+}
+
+.ham {
+    background-color: #fff;
+}
+
+.ham-burger {
+    color: #000;
+}
+
+#nav-color {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.banner-section-bg-container {
+    background-color: #000;
+    padding-bottom: 150px;
+    padding-top: 150px;
+
+}
+
+.banner-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+}
+
+.banner-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.banner-section-image {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.custom-button {
+    color: #000;
+    background-color: #fff;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+
+
+.image {
+    width: 50px;
+    height: 100%;
+
+}
+
+
+
+.skill-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.skill-heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skil-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skill-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skill-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+/* services */
+
+.containers {
+    max-width: 100%;
+    height: 100%;
+    padding: 0px 8%;
+}
+
+.containers h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.services-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.containers h1::after {
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #303ef7;
+}
+
+.service h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service:hover {
+    background: #303ef7;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.service:hover i {
+    color: #fff;
+}
+
+
+
+
+
+
+.section-subtitle {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.project {
+    background-color: grey;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.project-title {
+    font-family: "roboto";
+    font-weight: bold;
+}
+
+.project-icon {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.buttons {
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.images {
+    height: 180px;
+}
+
+.hotel-container {
+    background-color: grey;
+
+}
+
+.web-heading {
+    font-size: 14px;
+    color: #000;
+}
+
+.heading {
+    font-size: 16px;
+    color: #000;
+}
+
+
+.custom-buttons {
+    color: #000;
+}
+
+.project-head {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+    background-color: black;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 200px;
+
+}
+
+.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 35px;
+}
+
+.list {
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.contact-detail span {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-detail span a {
+    font-size: 20px;
+    padding: 6px 12px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+
+
+.inputfield {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    margin: 0 0 10px;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+.contFrm textarea {
+    height: 75px;
+    padding-top: 5px;
+}
+
+.inputbutton {
+    height: 40px;
+    border: 0;
+    background-color: #55acee;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* Responcive css Start */
+
+@media (max-width: 991px) {
+    .sec-pad {
+        padding: 20px 0 0px;
+    }
+
+    .contact-sec .contact-ul li,
+    .contact-ul b {
+        font-size: 18px;
+    }
+
+    .contact-sec .contact-ul i {
+        font-size: 14px;
+        padding: 6px;
+        margin-right: 6px;
+    }
+
+    .inputfield {
+        height: 40px;
+        margin: 0 0 10px;
+        padding: 0 14px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-detail span {
+        width: auto;
+    }
+
+    .contact-detail span a {
+        font-size: 18px;
+        padding: 5px 10px;
+        color: #000;
+        border-radius: 50%;
+        margin: 0px 5px 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-title {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .contact-sec {
+        border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+    }
+
+    .contact-sec .contact-ul i {
+        border: none;
+    }
+
+    .inputfield {
+        height: 36px;
+        margin: 0 0 8px;
+        padding: 0 14px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact-sec .contact-ul li,
+    .contact-ul b {
+        font-size: 16px;
+    }
+}
+
+.para {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.footer-section {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.footerlink {
+    color: white;
+    font-weight: bold;
+}
